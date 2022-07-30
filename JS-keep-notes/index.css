@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:ital,wght@1,300&family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:ital,wght@1,300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:ital,wght@1,300&family=Open+Sans&family=Oswald&display=swap');
+/* The sidebar menu */
+
+
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #080805;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: hsl(0, 100%, 1%);
+    background-color: rgb(111, 111, 103);
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  .textHead{
+    display: flex;
+    justify-content: center;
+    margin-right:4rem;
+  }
+  .textMargin{
+    
+    margin-right:1rem;
+  }
+  .text{
+    color:  rgb(10, 41, 66);
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+  }
+
+  .inp{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin:2rem;
+  }
+
+  .inputs{
+    padding: 4px 16px 12px 16px;
+    width:40%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1rem;
+    /* border-radius: 1rem; */
+   overflow: visible;
+   padding-top: 12px;
+    /* border-style: none; */
+   letter-spacing: .01428571em;
+  }
+
+  .items{
+   
+    padding:1rem;
+  }
+
+  .card{
+    margin:1rem;
+  }
+
+  .editItemDiv{
+    display: flex;
+    flex-direction: column;
+  }
+
+ .card-font{
+  font-family: 'Oswald', sans-serif;
+ }
+ .card-text-font{
+  font-family: 'Open Sans', sans-serif;
+ }
+  .listBtns{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    width:40%;
+    border: 1px solid gray;
+    padding: 4px 16px 12px 16px;
+    
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+  }
+
+  .btns{
+    border-style: none;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .insideBtns{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid gray; */
+    padding: 4px 16px 12px 16px;
+    
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+  }
+
+  .bin{
+    height:80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trashIcon{
+  font-size: 8rem;
+}
+
+/* .card-body{
+  position: relative;
+} */
+
+.sticker{
+  position: absolute;
+  border-radius: 10px;
+  margin:0.2rem;
+  padding:0.2rem;
+  background-color:#FEB139;
+  color:#f8f9fa;
+  right:0px
+}
+
+.editBtn{
+  height:2rem;
+  width: 2rem;
+}
+
+.card-title{
+  border-bottom: 2px solid black;
+}
+.parentDiv{
+  display: flex;
+  flex-direction: column;
+}
+
+.editarea{
+width:100%;
+border-style: none;
+padding:10px;
+
+}
+
+.editTitleDiv {
+  border-bottom:2px solid black
+}
+
+.saveDiv{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card:hover{
+  border: 2px solid black;
+  box-shadow: 1rem solid black;
+  cursor: pointer;
+}
+
+/* .borderInput{
+  width:50%;
+  padding:1rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+} */
+.container2{
+  padding-left: 11em;
+}
+
+.items{
+  width: 100%;
+}
+
+.inputs:hover{
+  border: 2px solid black;
+}
+
+.search:hover{
+  border: 2px solid black;
+}
